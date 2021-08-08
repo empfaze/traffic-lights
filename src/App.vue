@@ -86,7 +86,7 @@ body {
 .traffic-light {
   background-color: rgb(53, 51, 51);
   height: 85vh;
-  width: 37rem;
+  width: 40vh;
   padding: 3rem 0;
   border-radius: 8rem;
   overflow: hidden;
