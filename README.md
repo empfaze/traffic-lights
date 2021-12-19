@@ -1,5 +1,3 @@
-# trueconf-test
-
 ## Project setup
 ```
 npm install
