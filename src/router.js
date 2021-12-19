@@ -5,13 +5,14 @@ import Yellow from "./components/Yellow.vue";
 import Green from "./components/Green.vue";
 
 const router = createRouter({
+  mode: "history",
   history: createWebHistory(),
   routes: [
     { path: "/", redirect: "/red" },
     { path: "/red", name: "red", component: Red },
     { path: "/yellow", name: "yellow", component: Yellow },
     { path: "/green", component: Green },
-    { path: "/:notGound(.*)", redirect: "/red" },
+    { path: "/:notFound(.*)", redirect: "/red" },
   ],
   linkActiveClass: "active",
 });
